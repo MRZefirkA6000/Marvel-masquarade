@@ -1,0 +1,42 @@
+{
+  "schema": "systems_v1",
+  "columns": ["system_id", "module_name", "target_engine", "status", "description", "input_key", "config_cvar"],
+  "rows": [
+    {
+      "system_id": "tp_camera_lock",
+      "module_name": "ThirdPersonLock",
+      "target_engine": "Troika/Source",
+      "status": "verified",
+      "description": "Enforces seamless over-the-shoulder third-person camera mode throughout exploration and combat with adjusted collision pitch.",
+      "input_key": "F2",
+      "config_cvar": "cam_command 1; cam_idealdist 90; cam_ideallag 4; c_thirdpersonshoulder 1"
+    },
+    {
+      "system_id": "hero_swap_engine",
+      "module_name": "HeroSwapper",
+      "target_engine": "Troika/Source Python",
+      "status": "verified",
+      "description": "Instant switch between Emma Frost, Black Cat, and Invisible Woman, swapping models, disciplines, HUD portraits, and Rivals audio banks.",
+      "input_key": "1, 2, 3 / Numpad 1-3",
+      "config_cvar": "vpython midnight_rivals.switch_hero(index)"
+    },
+    {
+      "system_id": "rivals_companion_loader",
+      "module_name": "CompanionBridge",
+      "target_engine": "Troika/Source Native & Python",
+      "status": "verified",
+      "description": "Reads voice clips, ability sound effects, and UI textures directly from {game:marvel-rivals} without copying copyrighted assets into the mod.",
+      "input_key": "Passive",
+      "config_cvar": "alias rivals_companion_path \"{game:marvel-rivals}\""
+    },
+    {
+      "system_id": "discipline_adaptor",
+      "module_name": "DisciplineOverride",
+      "target_engine": "Troika/Source Python",
+      "status": "verified",
+      "description": "Binds active hero powers into Bloodlines discipline slots with custom cooldown timers and blood point costs.",
+      "input_key": "Mouse2, Q, Z, E",
+      "config_cvar": "vpython midnight_rivals.cast_ability(slot)"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Midnight Rivals: Bloodlines x Marvel Rivals",
+  "description": "Play Vampire: The Masquerade - Bloodlines in third-person as Marvel Rivals champions Emma Frost, Black Cat, and Invisible Woman.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

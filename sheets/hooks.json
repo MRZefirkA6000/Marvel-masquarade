@@ -1,0 +1,27 @@
+{
+  "schema": "hooks_v1",
+  "columns": ["hook_id", "target_file", "invocation_point", "action_taken", "fallback"],
+  "rows": [
+    {
+      "hook_id": "autoexec_camera",
+      "target_file": "midnight_rivals/cfg/autoexec.cfg",
+      "invocation_point": "Engine startup",
+      "action_taken": "Executes thirdperson commands and binds hero switch keys 1-3",
+      "fallback": "Toggleable via F2 key"
+    },
+    {
+      "hook_id": "python_player_init",
+      "target_file": "midnight_rivals/python/midnight_rivals.py",
+      "invocation_point": "Level load / OnPlayerSpawn",
+      "action_taken": "Initializes hero squad state, registers hotkeys, syncs companion audio paths",
+      "fallback": "Defaults to Emma Frost model and stats"
+    },
+    {
+      "hook_id": "game_sounds_rivals",
+      "target_file": "midnight_rivals/scripts/game_sounds_rivals.txt",
+      "invocation_point": "Ability activation",
+      "action_taken": "Points SoundWave entries to companion Rivals directory {game:marvel-rivals}",
+      "fallback": "Bloodlines default discipline SFX"
+    }
+  ]
+}

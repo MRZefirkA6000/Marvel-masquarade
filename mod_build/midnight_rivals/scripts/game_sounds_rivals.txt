@@ -1,0 +1,26 @@
+// Marvel Rivals companion audio mappings for Bloodlines
+// Audio files referenced from player's installed copy of Marvel Rivals via {game:marvel-rivals}
+
+"Rivals.EmmaFrost.Diamond"
+{
+    "channel"       "CHAN_STATIC"
+    "volume"        "1.0"
+    "soundlevel"    "SNDLVL_NORM"
+    "wave"          "{game:marvel-rivals}/MarvelRivals/Content/Audio/WwiseAudio/EmmaFrost/SFX_Emma_Diamond_Activate.wav"
+}
+
+"Rivals.BlackCat.Claw"
+{
+    "channel"       "CHAN_WEAPON"
+    "volume"        "1.0"
+    "soundlevel"    "SNDLVL_NORM"
+    "wave"          "{game:marvel-rivals}/MarvelRivals/Content/Audio/WwiseAudio/BlackCat/SFX_BlackCat_Claw_Slash.wav"
+}
+
+"Rivals.InvisibleWoman.Shield"
+{
+    "channel"       "CHAN_STATIC"
+    "volume"        "1.0"
+    "soundlevel"    "SNDLVL_NORM"
+    "wave"          "{game:marvel-rivals}/MarvelRivals/Content/Audio/WwiseAudio/InvisibleWoman/SFX_InvisibleWoman_Shield_Loop.wav"
+}

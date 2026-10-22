@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "mode": "installed",
+  "games": [
+    {
+      "slug": "custom-vampire-the-masquerade-bloodlines",
+      "role": "primary"
+    },
+    {
+      "slug": "marvel-rivals",
+      "role": "companion"
+    }
+  ],
+  "components": [
+    {
+      "id": "main",
+      "fileName": "midnight_rivals.zip",
+      "label": "Midnight Rivals Files",
+      "kind": "main",
+      "required": true
+    }
+  ],
+  "requirements": [],
+  "mappings": [
+    {
+      "component": "main",
+      "from": "midnight_rivals/",
+      "to": "{game}/midnight_rivals"
+    }
+  ],
+  "launch": {
+    "kind": "game",
+    "args": [
+      "-game",
+      "midnight_rivals"
+    ]
+  }
+}

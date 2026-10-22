@@ -1,0 +1,45 @@
+{
+  "schema": "heroes_v1",
+  "columns": ["hero_id", "name", "role", "base_health", "blood_pool", "passive", "ability_1", "ability_2", "ultimate", "tp_cam_distance", "rivals_asset_bank"],
+  "rows": [
+    {
+      "hero_id": "emma_frost",
+      "name": "Emma Frost",
+      "role": "Vanguard / Mentalist",
+      "base_health": 150,
+      "blood_pool": 15,
+      "passive": "Diamond Hardness",
+      "ability_1": "diamond_form",
+      "ability_2": "psychic_blast",
+      "ultimate": "mind_wipe",
+      "tp_cam_distance": 90,
+      "rivals_asset_bank": "MarvelRivals/Content/Audio/WwiseAudio/EmmaFrost"
+    },
+    {
+      "hero_id": "black_cat",
+      "name": "Black Cat (Felicia Hardy)",
+      "role": "Duelist / Infiltrator",
+      "base_health": 110,
+      "blood_pool": 12,
+      "passive": "Nine Lives Fortune",
+      "ability_1": "grapple_leap",
+      "ability_2": "shadow_claws",
+      "ultimate": "bad_luck_curse",
+      "tp_cam_distance": 85,
+      "rivals_asset_bank": "MarvelRivals/Content/Audio/WwiseAudio/BlackCat"
+    },
+    {
+      "hero_id": "invisible_woman",
+      "name": "Invisible Woman (Sue Storm)",
+      "role": "Strategist / Protector",
+      "base_health": 120,
+      "blood_pool": 14,
+      "passive": "Refractive Shroud",
+      "ability_1": "psionic_stealth",
+      "ability_2": "force_barrier",
+      "ultimate": "kinetic_implosion",
+      "tp_cam_distance": 92,
+      "rivals_asset_bank": "MarvelRivals/Content/Audio/WwiseAudio/InvisibleWoman"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "midnight-rivals",
+  "name": "Midnight Rivals",
+  "version": "0.1.0",
+  "primary_game": "custom-vampire-the-masquerade-bloodlines",
+  "companion_game": "marvel-rivals",
+  "description": "Play Vampire: The Masquerade - Bloodlines in third-person as Marvel Rivals heroes (Emma Frost, Black Cat, Invisible Woman) with real abilities, third-person camera controls, and companion audio integration.",
+  "heroes": [
+    "Emma Frost",
+    "Black Cat (Felicia Hardy)",
+    "Invisible Woman (Sue Storm)"
+  ]
+}
